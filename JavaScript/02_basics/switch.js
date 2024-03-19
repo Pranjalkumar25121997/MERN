@@ -14,3 +14,5 @@ switch (color) {
         console.log("light fuse");
         break;
 }
+
+console.log("After switch statement");
