@@ -32,8 +32,36 @@
 //     console.log("not a a golden string");
 // }
 
-let a = 10;
-let b = 20;
-let c = 30;
+// let a = 30;
+// let b = 40;
+// let c = 50;
 
+// if((a>b) && (a>c)){
+//     console.log(" a is greater ");
+// }else if(b>c){
+//     console.log("b is greater ");
+// }else{
+//     console.log("c is greater");
+// }
 
+// if(a>b){
+//     if(a>c){
+//         console.log("a is greater");
+//     }
+// }else if(b>c){
+//     console.log("b is greater");
+// }else{
+//     console.log("c is greater");
+// }
+
+let a = 32;
+let b = 47852;
+
+if( (a%10) == (b%10) ){
+    console.log("numbers have the same last digit which is "+ a%10);
+}else{
+    console.log("nnumbers don't have the same last digit");
+}
+
+console.log(a%10);
+console.log(b%10);
